@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family: "Noto Sans JP", "游ゴシック" , "Yu Gothic", Helvetica, sans-serif;
+	background: #f5fcff;
+}
+
+h1.maintitle{
+	position: relative;
+	text-align:center;
+	font-size:4em;
+	margin: 4em 0 0;
+	padding: 0 0;
+	color:#333333;
+}
+
+h2.maintitle{
+	position: relative;
+	text-align:center;
+	font-size:2em;
+	margin: 0 0 8em;
+	padding: 0;
+	color:#333333;
+}
+
+hr{
+	border:0px;
+	height: 1px;
+	background: #333333;
+	background-image: -webkit-linear-gradient(left, #eee, #333333, #eee);
+	background-image: -moz-linear-gradient(left, #eee, #333333, #eee);
+	background-image: -ms-linear-gradient(left, #eee, #333333, #eee);
+	background-image: -o-linear-gradient(left, #eee, #333333, #eee);
+}
+
+ul.whatsnew{
+	margin: 1em 5em;
+}
+ul.level3{
+	margin: 1em 3em;
+}
+
+ 
+#menu{
+	margin: 1em 3em;
+}
+ 
+#menu li{
+	color:#fff;
+	background-color:#333333;
+	padding-left:5px;
+	margin-bottom: 5px;
+}
+
+#menu a{
+	display:block;
+	color:#fff;
+}
+
+/* li.menu a:link{ */
+/* 	color:#f5fcff; */
+/* } */
+/* li.menu a:visited{ */
+/* 	color:#f5fcff; */
+/* } */
+/* li.menu a:hover{ */
+/* 	color:#f5fcff; */
+/* } */
+/* li.menu a:active{ */
+/* 	color:#f5fcff; */
+/* } */
+
+
+a{
+	color:#333333;
+}
+
+
+h1{
+	color:#333333;
+	text-align:center;
+	margin: 1em;
+}	
+
+h2{
+	margin: 1em 1em;
+	color:#333333;
+	text-align:left;
+}
+
+h3{
+	margin: 1em 3em;
+	color:#333333;
+	text-align:left;
+}
+
+h4{
+	margin: 1em 4em;
+	color:#333333;
+	text-align:left;
+}
+
+	
+p{
+	margin: 1em 3em;
+}
+
+p.totop{
+	align:right;
+	color:#333333;
+	text-align:right;
+	margin:1em 3em;
+}
+
+p.level3{
+	margin: 0 3em 0 4em;
+}
+
+table{
+	margin: 1em 3em;
+	border: 1px #333333 solid;
+	border-collapse: collapse;
+}
+
+table th{
+	border: 1px #333333 solid;
+	border-collapse: collapse;
+	background:#333333;
+	color:#fff;
+	text-align:left;
+}
+
+table td{
+	padding: 8px;
+	border: 1px #333333 solid;
+	border-collapse: collapse;
+	text-align:left;
+}
+
+img{
+	margin:20px;
+}
